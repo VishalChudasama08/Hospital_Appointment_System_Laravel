@@ -179,14 +179,7 @@
 
 	<!--<< Footer Section Start >>-->
 	<footer class="footer-section z-1 position-relative blackbg fix">
-		<div class="container">
-			<div class="footer-newsletter">
-				<h2 class="fw_600 white visible-slowly-right position-relative mb-40">
-					Ready To Turn Dreams Into Reality Subscribe to Our Newsletter
-					<!-- Element -->
-					<img src="assets/img/element/newsletter-element.png" alt="element" class="newsletter-element">
-				</h2>
-			</div>
+		<div class="container pt-5">
 			<div class="footer-space">
 				<div class="footer-widgets-wrapper">
 					<div class="row g-4 justify-content-between">
@@ -396,7 +389,8 @@
 				</form>
 			</div>
 		</div>
-	</div><!--<< All JS Plugins >>-->
+	</div>
+	<!--<< All JS Plugins >>-->
 	<script src="assets/js/jquery-3.7.1.min.js"></script>
 	<!--<< Viewport Js >>-->
 	<script src="assets/js/viewport.jquery.js"></script>

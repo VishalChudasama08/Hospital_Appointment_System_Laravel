@@ -160,9 +160,9 @@
                                                 <li><a href="doctor-details.html">Doctor Details</a></li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="{{url('contact')}}">Contact</a>
-                                        </li>
+                                        <li class="has-dropdown"><a href="{{url('login')}}">Login</a></li>
+                                        <li class="has-dropdown"><a href="{{url('register')}}">Register</a></li>
+                                        <li><a href="{{url('contact')}}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -479,7 +479,8 @@
                 </a>
             </div>
         </div>
-    </div><!-- Testimonial Section Start -->
+    </div>
+    <!-- Testimonial Section Start -->
     <section class="testimonial-sectio2 cmn-bg fix">
         <div class="container">
             <div class="row g-4 justify-content-between">
@@ -540,6 +541,7 @@
             </div>
         </div>
     </section>
+
     <!--<< Footer News Appinment Start >>-->
     <div class="footer-new-appoinment position-relative cmn-bg">
         <div class="container">

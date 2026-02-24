@@ -15,6 +15,7 @@ class AdminSeed extends Seeder{
             'name'=>'Vishal',
             'email'=>'admin@gmail.com',
             'password'=>'admin',
+            'number'=>1234567890,
             'user_type'=>'admin'
         ]);
     }

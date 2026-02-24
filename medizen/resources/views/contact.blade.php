@@ -161,9 +161,9 @@
                                                 <li><a href="doctor-details.html">Doctor Details</a></li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="{{url('contact')}}">Contact</a>
-                                        </li>
+                                        <li class="has-dropdown"><a href="{{url('login')}}">Login</a></li>
+                                        <li class="has-dropdown"><a href="{{url('register')}}">Register</a></li>
+                                        <li><a href="{{url('contact')}}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
