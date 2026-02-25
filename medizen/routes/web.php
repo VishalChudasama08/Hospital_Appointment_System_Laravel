@@ -4,25 +4,25 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
 
-Route::get('/login', function(){
+Route::get('/login', function () {
     return view('loginPage');
 });
 Route::post('/loginNow', [AuthController::class, 'loginProcess']);
 
-Route::get('/register', function(){
+Route::get('/register', function () {
     return view('registerPage');
 });
 Route::post('/registerNow', [AuthController::class, 'registerProcess']);
 
 Route::get('/logout', [AuthController::class, 'logoutProcess']);
 
-Route::get('/AdminDashboard', function(){
+Route::get('/AdminDashboard', function () {
     return view('admin.AdminDashboard');
 });
-Route::get('/PatientDashboard', function(){
+Route::get('/PatientDashboard', function () {
     return view('patient.PatientDashboard');
 });
-Route::get('/DoctorDashboard', function(){
+Route::get('/DoctorDashboard', function () {
     return view('doctor.DoctorDashboard');
 });
 
@@ -44,4 +44,10 @@ Route::get('/about', function () {
 });
 Route::get('/contact', function () {
     return view('contact');
+});
+Route::get('/doctors', function () {
+    return view('doctors');
+});
+Route::get('/doctorDetails', function () {
+    return view('doctor-details');
 });

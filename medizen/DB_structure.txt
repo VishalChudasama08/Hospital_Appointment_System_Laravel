@@ -1,0 +1,22 @@
+
+CREATE TABLE `users` (
+	`id` bigint(20) UNSIGNED NOT NULL,
+   `name` varchar(255) NOT NULL,
+   `email` varchar(255) NOT NULL,
+   `number` int(11) NOT NULL,
+   `password` varchar(255) NOT NULL,
+   `user_type` enum('Patient','Doctor','Admin') NOT NULL DEFAULT 'Patient',
+   `remember_token` varchar(100) DEFAULT NULL,
+   `created_at` timestamp NULL DEFAULT NULL,
+   `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+table => doctor
+	Expertise, Education, Experience, Profession, avalible time with days
+   relation => users table id -> doctor_id
+
+table => patient
+	name, email, number, (ex. father book for it's son so name, email, number is different from users login table)
+	message, time
+	relation => users table id -> patient_id

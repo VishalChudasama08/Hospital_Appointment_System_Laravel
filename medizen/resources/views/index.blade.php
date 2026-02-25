@@ -2,85 +2,143 @@
 
 @section('main-content')
 
-<hr>
-<!-- Testimonial Section Start -->
-<section class="testimonial-sectio2 cmn-bg fix">
+<!-- Servie Section Start -->
+<section class="services-section main-style cmn-bg fix p-2">
 	<div class="container">
-		<div class="row g-4 justify-content-between">
-			<div class="col-xxl-8 col-xl-9 col-lg-9">
+		<div class="row g-4 justify-content-between align-items-center">
+			<div class="col-xxl-7 col-xl-8 col-lg-8">
 				<div class="section-title">
-					<h3 class="wow fadeInUp black mb-xxl-4 mb-3" data-wow-delay=".3s">
-						Consult top doctors online for any
-						<span class="position-relative z-1">
-							health concern
-							<img src="assets/img/element/title-badge1.png" alt="img" class="title-badge1 d-md-block d-none w-100">
-						</span>
-					</h3>
+					<h3 class="wow fadeInUp black mb-xxl-4" data-wow-delay=".3s">Consult top doctors online for any health concern</h3>
 					<p class="pra mb-40">Private online consultations with verified doctors in all specialists</p>
 				</div>
 			</div>
-			<div class="col-xxl-2 col-xl-3 col-lg-3">
+			<div class="col-xxl-2 col-xl-2 col-lg-2">
 				<span class="cmn-tag p1-bg heading-font mb-3">All Specialities</span>
 			</div>
-			<div class="col-xxl-7 col-xl-7 col-lg-7">
-				<div class="array-button d-flex align-items-center gap-3 wow fadeInUp" data-wow-delay=".5s">
-					<button class="array-prev"><i class="fal fa-arrow-left"></i></button>
-					<button class="array-next"><i class="fal fa-arrow-right"></i></button>
-				</div>
-				<div class="swiper testimonial-slider">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="testimonial-items style2">
-								<div class="ratting mb-3">
-									<i class="fa-solid fa-star p3-clr fs-six"></i>
-									<i class="fa-solid fa-star p3-clr fs-six"></i>
-									<i class="fa-solid fa-star p3-clr fs-six"></i>
-									<i class="fa-solid fa-star p3-clr fs-six"></i>
-									<i class="fa-solid fa-star p3-clr fs-six"></i>
-								</div>
-								<p class="fs-five pra mt-xxl-4 mt-4 mb-4">
-									Health is wealth, and in the realm of medical heal every life matters. It
-									encompasses a wide range of specialties aimed
-									at diagnosing, treating, and preventing diseases and maintaining overall very
-									famous
-								</p>
-								<div class="d-flex align-items-center justify-content-between">
-									<div class="d-flex align-items-center gap-xxl-4 gap-xl-3 gap-2">
-										<img src="assets/img/testimonial/testimonial-john.png" alt="img" class="rounded-circle">
-										<div class="cont">
-											<h4 class="black">Michael Ramirez</h4>
-											<span class="fs-seven pra">Ceo</span>
-										</div>
-									</div>
-									<img src="assets/img/testimonial/quote-icons.png" alt="img" class="quote">
-								</div>
+		</div>
+
+		<div class="row g-4">
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser1.png" alt="icon">
 							</div>
+							<h5 class="black">General Consultation</h5>
 						</div>
+						<p class="pra">Consult a doctor for common health concerns like fever, cold, infections, body pain, or general medical advice.</p>
 					</div>
-				</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser2.png" alt="icon">
+							</div>
+							<h5 class="black">Annual Health Check-up</h5>
+						</div>
+						<p class="pra">Comprehensive physical examination and routine health screening to monitor overall wellness and prevent future illness.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser3.png" alt="icon">
+							</div>
+							<h5 class="black">Sick Visit Consultation</h5>
+						</div>
+						<p class="pra">Get timely medical attention for sudden health issues like fever, cough, infections, stomach problems, and general discomfort.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser4.png" alt="icon">
+							</div>
+							<h5 class="black">Specialist Consultation</h4>
+						</div>
+						<p class="pra">Book appointments with expert specialists like cardiologists, dermatologists, neurologists, and more.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser5.png" alt="icon">
+							</div>
+							<h5 class="black">Pediatric Care</h4>
+						</div>
+						<p class="pra">Dedicated healthcare services for infants, children, and adolescents including routine and emergency visits.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser6.png" alt="icon">
+							</div>
+							<h5 class="black">Women’s Health Services</h4>
+						</div>
+						<p class="pra">Consult OB-GYN specialists for pregnancy care, menstrual issues, hormonal concerns, and general women’s wellness.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser3.png" alt="icon">
+							</div>
+							<h5 class="black">Follow-up Appointment</h5>
+						</div>
+						<p class="pra">Review your recovery progress, test reports, or ongoing treatment plan with your doctor.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser6.png" alt="icon">
+							</div>
+							<h4 class="black">Vaccination & Immunization</h5>
+						</div>
+						<p class="pra">Get recommended vaccines for children and adults to stay protected against preventable diseases.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<a href="{{url('doctors')}}" class="common-btn">
+					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
+						<div class="icon-area d-flex align-items-center gap-2">
+							<div class="icon d-center">
+								<img src="assets/img/icon/ser6.png" alt="icon">
+							</div>
+							<h5 class="black">Diagnostic Tests & Lab Services</h5>
+						</div>
+						<p class="pra">Schedule blood tests, scans, and other diagnostic procedures with reliable laboratory services.</p>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
 </section>
-General Consultation / Primary Care Visit <br>
 
-Sick Visit (Cold, Fever, Infection, etc.) <br>
-
-Annual Physical / Routine Check-up <br>
-
-Follow-up Appointment
-<br>
-Specialist Consultation (Cardiology, Dermatology, etc.)
-<br>
-Pediatric Appointment
-<br>
-OB-GYN / Women’s Health Visit
-<br>
-Vaccination / Immunization
-<br>
-Diagnostic Test / Lab Appointment
-<br>
-Telemedicine / Online Consultation <br>
 <!-- Helth Compassionate -->
 <section class="helth-compassionate cmn-bg section-padding">
 	<div class="container">

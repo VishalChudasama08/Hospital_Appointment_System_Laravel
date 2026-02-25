@@ -151,12 +151,15 @@
 												</li>
 											</ul>
 										</li>
-										<li class="has-dropdown"><a href="{{url('login')}}">Login</a></li>
-										<li class="has-dropdown"><a href="{{url('register')}}">Register</a></li>
 										<li><a href="{{url('about')}}">About Us</a></li>
-										<li><a href="doctor.html">Doctor</a></li>
-										<li><a href="doctor-details.html">Doctor Details</a></li>
+										<li><a href="{{url('doctors')}}">Doctor</a></li>
 										<li><a href="{{url('contact')}}">Contact</a></li>
+										@if(auth()->user())
+										<li class="has-dropdown"><a href="{{url('logout')}}" style="color:#f98c8c">Logout</a></li>
+										@else
+										<li class="has-dropdown"><a href="{{url('login')}}">Login</a></li>
+										<li class="has-dropdown dark"><a href="{{url('register')}}">Register</a></li>
+										@endif
 									</ul>
 								</nav>
 							</div>
@@ -173,6 +176,7 @@
 		</div>
 	</header>
 
+	<hr style="margin: 0;">
 
 	@yield('main-content')
 

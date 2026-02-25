@@ -192,31 +192,52 @@ CSS TABLE OF CONTENTS
 		//--Testimonial Slide
 		const testimonialSlider = new Swiper(".testimonial-slider", {
 			spaceBetween: 30,
-			speed: 500,
-			loop: true,
-			pagination: {
-				el: ".dot",
-				clickable: true,
-			},
+			speed: 600,
+			loop: false,
+
+			slidesPerView: 5,
+
 			navigation: {
-				nextEl: ".array-prev",
-				prevEl: ".array-next",
+				nextEl: ".array-next",
+				prevEl: ".array-prev",
 			},
+
 			breakpoints: {
-				1199: {
-					slidesPerView: 1,
-				},
-				767: {
-					slidesPerView: 1,
-				},
-				575: {
-					slidesPerView: 1,
-				},
-				0: {
-					slidesPerView: 1,
-				},
+				1400: { slidesPerView: 5 },
+				1200: { slidesPerView: 5 },
+				992: { slidesPerView: 4 },
+				768: { slidesPerView: 3 },
+				576: { slidesPerView: 2 },
+				0: { slidesPerView: 1 },
 			},
 		});
+		// const testimonialSlider = new Swiper(".testimonial-slider", {
+		// 	spaceBetween: 30,
+		// 	speed: 500,
+		// 	loop: true,
+		// 	pagination: {
+		// 		el: ".dot",
+		// 		clickable: true,
+		// 	},
+		// 	navigation: {
+		// 		nextEl: ".array-prev",
+		// 		prevEl: ".array-next",
+		// 	},
+		// 	breakpoints: {
+		// 		1199: {
+		// 			slidesPerView: 1,
+		// 		},
+		// 		767: {
+		// 			slidesPerView: 1,
+		// 		},
+		// 		575: {
+		// 			slidesPerView: 1,
+		// 		},
+		// 		0: {
+		// 			slidesPerView: 1,
+		// 		},
+		// 	},
+		// });
 
 		const testimonialslider3 = new Swiper(".testimonial-slider3", {
 			spaceBetween: 30,

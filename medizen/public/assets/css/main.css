@@ -2882,7 +2882,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 0;
+  padding: 8px 0;
 }
 .header-main .main-menu ul {
   margin-bottom: 0;
@@ -4820,7 +4820,7 @@ footer {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  max-width: 300px;
+  max-width: 180px;
 }
 
 .cmn-bg2 {
@@ -4828,7 +4828,7 @@ footer {
 }
 
 .bread-content {
-  padding: 140px 0 155px;
+  padding: 65px 0 75px;
 }
 .bread-content ul li,
 .bread-content ul a {
@@ -6748,11 +6748,11 @@ input.main-search-input::placeholder {
 }
 
 .service-item {
-  padding: 30px 30px;
+  padding: 20px 20px;
   transition: all 0.4s;
 }
 .service-item .icon-area {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .service-item .icon-area .icon {
   width: 80px;
@@ -6763,10 +6763,10 @@ input.main-search-input::placeholder {
   transition: all 0.4s;
 }
 .service-item p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .service-item .service-btn-inner {
-  margin-top: -30px;
+  margin-top: -20px;
 }
 .service-item .common-btn {
   border: 1px solid var(--cmn-border);
