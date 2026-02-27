@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('main-content')
+@if(auth()->user())
 <!-- Banner Section Start -->
 <section class="breadcrumb-section position-relative fix">
     <div class="container">
@@ -214,5 +215,9 @@
         </div>
     </div>
 </section>
+@else
+<li class="has-dropdown"><a href="{{url('login')}}">Login</a></li>
+<li class="has-dropdown dark"><a href="{{url('register')}}">Register</a></li>
+@endif
 
 @endsection

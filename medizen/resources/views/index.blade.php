@@ -3,13 +3,13 @@
 @section('main-content')
 
 <!-- Servie Section Start -->
-<section class="services-section main-style cmn-bg fix p-2">
+<section class="services-section main-style cmn-bg fix p-4">
 	<div class="container">
 		<div class="row g-4 justify-content-between align-items-center">
 			<div class="col-xxl-7 col-xl-8 col-lg-8">
 				<div class="section-title">
-					<h3 class="wow fadeInUp black mb-xxl-4" data-wow-delay=".3s">Consult top doctors online for any health concern</h3>
-					<p class="pra mb-40">Private online consultations with verified doctors in all specialists</p>
+					<h3 class="wow fadeInUp black mb-2" data-wow-delay=".3s">Consult top doctors online for any health concern</h3>
+					<p class="pra mb-2">Private online consultations with verified doctors in all specialists</p>
 				</div>
 			</div>
 			<div class="col-xxl-2 col-xl-2 col-lg-2">
@@ -17,9 +17,9 @@
 			</div>
 		</div>
 
-		<div class="row g-4">
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -31,8 +31,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -44,8 +44,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -57,8 +57,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -70,8 +70,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -83,8 +83,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -96,8 +96,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -109,8 +109,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">
@@ -122,8 +122,8 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<a href="{{url('doctors')}}" class="common-btn">
+			<div class="col-lg-4 col-md-6 mt-0 p-3">
+				<a href="{{url('doctors')}}" class="common-btn p-0 m-0">
 					<div class="service-item overflow-hidden white-bg rounded-4 position-relative">
 						<div class="icon-area d-flex align-items-center gap-2">
 							<div class="icon d-center">

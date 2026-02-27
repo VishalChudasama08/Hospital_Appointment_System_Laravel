@@ -8,7 +8,7 @@
             class="bread-content px-3 d-flex flex-wrap gap-3 align-items-center justify-content-md-between justify-content-center">
             <h2 class="black">Doctors</h2>
             <ul class="d-flex align-items-center gap-3">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{url('index')}}">Home</a></li>
                 <li>/</li>
                 <li>Doctor</li>
             </ul>
